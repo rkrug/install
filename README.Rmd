@@ -14,3 +14,9 @@ knitr::opts_chunk$set(echo = TRUE)
 - work with CRAN and all **remotes** supported package sources
 - what about **drat**?
 
+We should use the functionality from remotes::package_deps() and ## S3 method for class 'package_deps'
+update(object, dependencies = NA,
+  upgrade = c("ask", "always", "never"), force = FALSE,
+  quiet = FALSE, build = TRUE, build_opts = c("--no-resave-data",
+  "--no-manual", "--no-build-vignettes"), repos = getOption("repos"),
+  type = getOption("pkgType"), ...)
